@@ -257,7 +257,6 @@ export default function CustomSelect(props: CustomSelectProps) {
     <Select
       mode='tags'
       allowClear={!readOnly}
-      virtual={false}
       open={readOnly ? false : undefined}
       value={stringValue}
       onChange={onChange}
